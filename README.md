@@ -12,12 +12,19 @@ This Python script automates the execution of XML External Entity (XXE) attacks,
 
 ## Installation   
 https://github.com/omk4r72/xxe_automation.git
+
+
 cd xxe
+
 python xxe.py -u <target_url> -x <xml_file> -a <attack_type> [-p <payload_file>] [-ih <internal_host>]
 
+
 1. Local File Inclusion (LFI)
+
 python xxe.py -u http://example.com/vulnerable-endpoint -a lfi
+
 2. Remote File Inclusion (RFI) with a custom payload
+
 python xxe.py -u http://example.com/vulnerable-endpoint -a rfi -p custom_payload.xml
 
 
