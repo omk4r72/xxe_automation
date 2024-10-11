@@ -1,6 +1,6 @@
 # XXE Attack Automation Tool
 
-![XXE Tool]()
+![XXE Tool](photo_2024-10-11_17-40-57.jpg)
 
 This Python script automates the execution of XML External Entity (XXE) attacks, including Local File Inclusion (LFI), Remote File Inclusion (RFI), Out-Of-Band (OOB) data exfiltration, and internal network scanning.
 
